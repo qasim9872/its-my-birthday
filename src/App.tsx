@@ -2,8 +2,8 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="bg-blue-500 mx-auto container flex justify-center items-center">
-      <div>Hello World</div>
+    <div className="flex items-center justify-center h-screen bg-blue-500">
+      <div className="container flex items-center justify-center mx-auto bg-yellow-500 bg-cover rounded-lg shadow-2xl bg-hero-image h-2/3"></div>
     </div>
   );
 }

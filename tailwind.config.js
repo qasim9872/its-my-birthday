@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         rubik: ['Rubik', ...fontFamily.sans],
         poppins: ['Poppins', ...fontFamily.sans]
+      },
+      backgroundImage: {
+        'hero-image': "url('../assets/images/its-my-birthday.jpg')"
       }
     }
   },
